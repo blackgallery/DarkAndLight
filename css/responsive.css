@@ -1,0 +1,56 @@
+/*          Responsive styles
+================================================== */
+
+/*                     Tablet Landscape
+=======================================================================================*/
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {}
+
+
+/*                      Tablet Portrait and Phone
+=======================================================================================*/
+@media only screen and (max-width: 992px) {}
+
+/*                      Tablet Portrait
+=======================================================================================*/
+
+@media (min-width: 768px) and (max-width: 991px) {}
+
+
+/*                          Phone
+=======================================================================================*/
+
+@media only screen and (max-width: 767px) {}
+
+
+/* Mobile Vertical Layout: 488px 
+===============================================================================*/
+@media only screen and (min-width: 288px) and (max-width: 400px) {}
+
+
+
+/*  Container Width
+=======================*/
+@media (min-width:576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width:768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width:992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width:1200px) {
+  .container {
+    max-width: 1170px;
+  }
+}
