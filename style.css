@@ -34,6 +34,10 @@ img {
   max-width: 100%;
 }
 
+:root {
+  --blue: blue;
+  --width: 50px;
+}
 
 /* === PARAGRAPH === */
 
@@ -78,6 +82,9 @@ h3 {
   font-size: 28px;
   line-height: 32px;
   font-weight: 700;
+  color: var(--blue);
+  width: var(--width);
+  width: calc(var(--width) + 20px);
 }
 
 h4 {
